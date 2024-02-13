@@ -1,5 +1,5 @@
 * {
-  font-family: arial, sans-serif;
+  font-family: 'Arial', sans-serif;
   margin: 0;
 }
 
@@ -20,8 +20,22 @@ body > div {
 }
 
 #navbar {
-  padding: 2em;
+  padding: 1em;
   justify-content: space-evenly;
+  background-color: #f0f0f0; 
+  border-radius: 10px;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #333; 
+  padding: 0.5em 1em;
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
+}
+
+#navbar a:hover {
+  background-color: #ddd; 
 }
 
 #main-section {
@@ -45,7 +59,33 @@ body > div {
   color: white;
 }
 
+.yellow {
+  background-color: #ffdc52;
+  color: black;
+}
+
 .home {
   background-color: blanchedalmond;
   color: black;
+}
+
+#footer {
+  padding: 1px;
+  justify-content: space-evenly;
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px; 
+  margin-top: auto; 
+}
+
+#footer a {
+  text-decoration: none;
+  color: #fff; 
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+#footer a:hover {
+  background-color: #555;
 }
